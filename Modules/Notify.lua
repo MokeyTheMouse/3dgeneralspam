@@ -98,7 +98,7 @@ wait(.3)
 notify:Destroy()
 end
 
-function Library:Notify(Title, Description, B1, B2, Callback1, Callback2)
+function Library:Notify(Title, Description, LineColor, B1, B2, Callback1, Callback2)
     if game.CoreGui:FindFirstChild("NotifyUI") then
         game.CoreGui:FindFirstChild("NotifyUI"):Destroy()
     end
@@ -166,7 +166,7 @@ UIGradient.Parent = top
 
 line.Name = "line"
 line.Parent = main
-line.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+line.BackgroundColor3 = LineColor or Color3.fromRGB(255, 255, 255)
 line.BorderSizePixel = 0
 line.Position = UDim2.new(0, 0, 0, 19)
 line.Size = UDim2.new(0, 350, 0, 1)
