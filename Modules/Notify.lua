@@ -19,7 +19,7 @@ notify.Name = "NotifyUI"
 notify.Parent = game.CoreGui
 notify.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
-main.Name = "main"
+main.Name = "nooneknowswhatisit"
 main.Parent = notify
 main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 main.BorderColor3 = Color3.fromRGB(60, 60, 60)
@@ -27,13 +27,13 @@ main.ClipsDescendants = true
 main.Position = UDim2.new(0.999, 0, 0.0303398054, 0) -- UDim2.new(0.766063631, 0, 0.0303398054, 0)
 main.Size = UDim2.new(0, 350, 0.1, 0)
 
-top.Name = "top"
+top.Name = "nooneknowswhatisit2"
 top.Parent = main
 top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 top.BorderSizePixel = 0
 top.Size = UDim2.new(0, 350, 0, 20)
 
-title.Name = "title"
+title.Name = "nooneknowswhatisit3"
 title.Parent = top
 title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title.BackgroundTransparency = 1.000
@@ -50,7 +50,7 @@ UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.from
 UIGradient.Rotation = 90
 UIGradient.Parent = top
 
-line.Name = "line"
+line.Name = "nooneknowswhatisit4"
 line.Parent = main
 line.BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255)
 line.BorderSizePixel = 0
@@ -58,14 +58,14 @@ line.Position = UDim2.new(0, 0, 0, 19)
 line.Size = UDim2.new(0, 350, 0, 1)
 line.ZIndex = 9
 
-blackline.Name = "blackline"
+blackline.Name = "nooneknowswhatisit5"
 blackline.Parent = main
 blackline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 blackline.BorderSizePixel = 0
 blackline.Size = UDim2.new(0, 350, 0, 102)
 blackline.ZIndex = 0
 
-navigation.Name = "navigation"
+navigation.Name = "nooneknowswhatisit6"
 navigation.Parent = main
 navigation.BackgroundTransparency = 1.000
 navigation.Position = UDim2.new(0, 0, 0.189999998, 0)
@@ -78,7 +78,7 @@ Frame.BorderColor3 = Color3.fromRGB(60, 60, 60)
 Frame.Position = UDim2.new(0.0285714287, 0, 0.279999971, 0)
 Frame.Size = UDim2.new(0, 330, 0, 61)
 
-description.Name = "description"
+description.Name = "nooneknowswhatisit7"
 description.Parent = Frame
 description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 description.BackgroundTransparency = 1.000
@@ -133,7 +133,7 @@ local description = Instance.new("TextLabel")
 UI.Parent = game.CoreGui
 UI.Name = "NotifyUI"
 
-main.Name = "main"
+main.Name = "nooneknowswhatisit8"
 main.Parent = UI
 main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
 main.BorderColor3 = Color3.fromRGB(60, 60, 60)
@@ -141,13 +141,13 @@ main.ClipsDescendants = true
 main.Position = UDim2.new(0.999, 0, 0.0303398054, 0) -- UDim2.new(0.766063631, 0, 0.0303398054, 0)
 main.Size = UDim2.new(0, 350, 0.121, 0)
 
-top.Name = "top"
+top.Name = "nooneknowswhatisit11"
 top.Parent = main
 top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 top.BorderSizePixel = 0
 top.Size = UDim2.new(0, 350, 0, 20)
 
-title.Name = "title"
+title.Name = "nooneknowswhatisit22"
 title.Parent = top
 title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 title.BackgroundTransparency = 1.000
@@ -164,7 +164,7 @@ UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.from
 UIGradient.Rotation = 90
 UIGradient.Parent = top
 
-line.Name = "line"
+line.Name = "nooneknowswhatisit323"
 line.Parent = main
 line.BackgroundColor3 = LineColor or Color3.fromRGB(255, 255, 255)
 line.BorderSizePixel = 0
@@ -175,14 +175,14 @@ line.ZIndex = 9
 UIGradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(189, 55, 218)), ColorSequenceKeypoint.new(0.14, Color3.fromRGB(116, 44, 234)), ColorSequenceKeypoint.new(0.50, Color3.fromRGB(116, 44, 234)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(189, 55, 218)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(211, 234, 20))}
 UIGradient_2.Parent = line
 
-blackline.Name = "blackline"
+blackline.Name = "nooneknowswhatisit434"
 blackline.Parent = main
 blackline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 blackline.BorderSizePixel = 0
 blackline.Size = UDim2.new(0, 350, 0, 102)
 blackline.ZIndex = 0
 
-navigation.Name = "navigation"
+navigation.Name = "nooneknowswhatisit343"
 navigation.Parent = main
 navigation.BackgroundTransparency = 1.000
 navigation.Position = UDim2.new(0, 0, 0.194339603, 0)
@@ -201,7 +201,7 @@ Frame_2.BackgroundTransparency = 1.000
 Frame_2.Position = UDim2.new(0, 0, 0.666666687, 0)
 Frame_2.Size = UDim2.new(0, 330, 0, 17)
 
-okay.Name = "okay"
+okay.Name = "nooneknowswhatisit434"
 okay.Parent = Frame_2
 okay.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 okay.BorderSizePixel = 0
@@ -220,7 +220,7 @@ UIListLayout.Parent = UIGradient_3
 UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout.Padding = UDim.new(0, 9)
 
-blackline_2.Name = "blackline"
+blackline_2.Name = "nooneknowswhatisit4334"
 blackline_2.Parent = okay
 blackline_2.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 blackline_2.BorderSizePixel = 0
@@ -228,7 +228,7 @@ blackline_2.Position = UDim2.new(0, -1, 0, -1)
 blackline_2.Size = UDim2.new(0, 48, 0, 18)
 blackline_2.ZIndex = 3
 
-blackline_3.Name = "blackline"
+blackline_3.Name = "nooneknowswhatisit43543"
 blackline_3.Parent = okay
 blackline_3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 blackline_3.BorderSizePixel = 0
@@ -236,7 +236,7 @@ blackline_3.Position = UDim2.new(0, -2, 0, -2)
 blackline_3.Size = UDim2.new(0, 48, 0, 17)
 blackline_3.ZIndex = 2
 
-Label.Name = "Label"
+Label.Name = "nooneknowswhatisit444"
 Label.Parent = okay
 Label.BackgroundTransparency = 1.000
 Label.Position = UDim2.new(0, 3, 0, 1)
@@ -271,7 +271,7 @@ okay.MouseButton1Click:Connect(function()
 	UI:Destroy()
 end)
 
-close.Name = "close"
+close.Name = "nooneknowswhatisit213234"
 close.Parent = Frame_2
 close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 close.BorderSizePixel = 0
@@ -290,7 +290,7 @@ UIListLayout_2.Parent = UIGradient_4
 UIListLayout_2.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_2.Padding = UDim.new(0, 9)
 
-blackline_4.Name = "blackline"
+blackline_4.Name = "nooneknowswhatisit76457"
 blackline_4.Parent = close
 blackline_4.BackgroundColor3 = Color3.fromRGB(60, 60, 60)
 blackline_4.BorderSizePixel = 0
@@ -298,7 +298,7 @@ blackline_4.Position = UDim2.new(0, -1, 0, -1)
 blackline_4.Size = UDim2.new(0, 48, 0, 18)
 blackline_4.ZIndex = 3
 
-blackline_5.Name = "blackline"
+blackline_5.Name = "nooneknowswhatisit2342134"
 blackline_5.Parent = close
 blackline_5.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 blackline_5.BorderSizePixel = 0
@@ -306,7 +306,7 @@ blackline_5.Position = UDim2.new(0, -2, 0, -2)
 blackline_5.Size = UDim2.new(0, 48, 0, 17)
 blackline_5.ZIndex = 2
 
-Label_2.Name = "Label"
+Label_2.Name = "nooneknowswhatisit423521"
 Label_2.Parent = close
 Label_2.BackgroundTransparency = 1.000
 Label_2.Position = UDim2.new(0, 3, 0, 1)
@@ -351,7 +351,7 @@ UIListLayout_3.FillDirection = Enum.FillDirection.Horizontal
 UIListLayout_3.SortOrder = Enum.SortOrder.LayoutOrder
 UIListLayout_3.Padding = UDim.new(0, 225)
 
-description.Name = "description"
+description.Name = "nooneknowswhatisit12314"
 description.Parent = Frame
 description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 description.BackgroundTransparency = 1.000
