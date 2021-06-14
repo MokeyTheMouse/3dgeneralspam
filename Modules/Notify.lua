@@ -1,6 +1,102 @@
--- made by print("\226\153\165")#6661
-local Library = {}
-local TweenService = game:GetService("TweenService")
+local Library = {};
+
+function Library:Popup(Title, Desc, Color, Time)
+if game.CoreGui:FindFirstChild("NotifyUI") then
+    game.CoreGui:FindFirstChild("NotifyUI"):Destroy()
+end
+local notify = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local top = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local line = Instance.new("Frame")
+local blackline = Instance.new("Frame")
+local navigation = Instance.new("ImageButton")
+local Frame = Instance.new("Frame")
+local description = Instance.new("TextLabel")
+
+notify.Name = "NotifyUI"
+notify.Parent = game.CoreGui
+notify.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+main.Name = "main"
+main.Parent = notify
+main.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+main.BorderColor3 = Color3.fromRGB(60, 60, 60)
+main.ClipsDescendants = true
+main.Position = UDim2.new(0.999, 0, 0.0303398054, 0) -- UDim2.new(0.766063631, 0, 0.0303398054, 0)
+main.Size = UDim2.new(0, 350, 0.1, 0)
+
+top.Name = "top"
+top.Parent = main
+top.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+top.BorderSizePixel = 0
+top.Size = UDim2.new(0, 350, 0, 20)
+
+title.Name = "title"
+title.Parent = top
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0, 6, 0, 0)
+title.Size = UDim2.new(0, 296, 0, 19)
+title.Font = Enum.Font.Code
+title.Text = Title
+title.TextColor3 = Color3.fromRGB(251, 251, 251)
+title.TextSize = 14.000
+title.TextXAlignment = Enum.TextXAlignment.Left
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(29, 29, 29)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(12, 12, 12))}
+UIGradient.Rotation = 90
+UIGradient.Parent = top
+
+line.Name = "line"
+line.Parent = main
+line.BackgroundColor3 = Color or Color3.fromRGB(255, 255, 255)
+line.BorderSizePixel = 0
+line.Position = UDim2.new(0, 0, 0, 19)
+line.Size = UDim2.new(0, 350, 0, 1)
+line.ZIndex = 9
+
+blackline.Name = "blackline"
+blackline.Parent = main
+blackline.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+blackline.BorderSizePixel = 0
+blackline.Size = UDim2.new(0, 350, 0, 102)
+blackline.ZIndex = 0
+
+navigation.Name = "navigation"
+navigation.Parent = main
+navigation.BackgroundTransparency = 1.000
+navigation.Position = UDim2.new(0, 0, 0.189999998, 0)
+navigation.Size = UDim2.new(0, 349, 0, 82)
+navigation.Image = "rbxassetid://6880496154"
+
+Frame.Parent = main
+Frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Frame.BorderColor3 = Color3.fromRGB(60, 60, 60)
+Frame.Position = UDim2.new(0.0285714287, 0, 0.279999971, 0)
+Frame.Size = UDim2.new(0, 330, 0, 61)
+
+description.Name = "description"
+description.Parent = Frame
+description.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+description.BackgroundTransparency = 1.000
+description.Position = UDim2.new(0.0151515156, 0, 0.121212125, 0)
+description.Size = UDim2.new(0, 320, 0, 27)
+description.Font = Enum.Font.Code
+description.Text = Desc
+description.TextColor3 = Color3.fromRGB(255, 255, 255)
+description.TextSize = 13.000
+description.TextWrapped = true
+description.TextXAlignment = Enum.TextXAlignment.Left
+description.TextYAlignment = Enum.TextYAlignment.Top
+main:TweenPosition(UDim2.new(0.8, 0, 0.01, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 2, true)
+wait(Time)
+main:TweenPosition(UDim2.new(0.999, 0, 0.0303398054, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 1, true)
+wait(.3)
+notify:Destroy()
+end
 
 function Library:Notify(Title, Description, B1, B2, Callback1, Callback2)
     if game.CoreGui:FindFirstChild("NotifyUI") then
@@ -269,7 +365,7 @@ description.TextWrapped = true
 description.TextXAlignment = Enum.TextXAlignment.Left
 description.TextYAlignment = Enum.TextYAlignment.Top
 
-main:TweenPosition(UDim2.new(0.766063631, 0, 0.0303398054, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 2, true)
+main:TweenPosition(UDim2.new(0.8, 0, 0.01, 0), Enum.EasingDirection.Out, Enum.EasingStyle.Quart, 2, true)
 end
-
 return Library
+--Library:Popup("Loaded", "Successfully loaded GUI.", Color3.fromRGB(255, 255, 255), 5)
